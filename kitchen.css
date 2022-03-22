@@ -1,0 +1,78 @@
+#surround {
+  margin: 0 auto;
+  width: 85%;
+  min-width: 960px;
+  max-width: 1200px;
+  background-color: #aa6fd6;
+}
+
+body {
+  background-color: #e7d4ff;
+}
+
+header {
+  background-image: url(Logo.jpg);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  background-color: #590aa8;
+  font-family: Georgia, serif;
+  padding-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #aa6fd6;
+  float: left;
+  width: 150px;
+  padding-right: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 1px solid;
+}
+
+main {
+  background-color: #ffffff;
+  margin: 0 21px 0 160px;
+  padding: 1px 10px 20px 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    margin: 0px;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  #surround {
+    min-width: auto;
+  }
+
+  nav {
+    float: none;
+    width: auto;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0.25em;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  h1, h2, h3 {
+    font-size: 120%;
+  }
