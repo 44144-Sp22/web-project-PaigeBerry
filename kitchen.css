@@ -1,3 +1,7 @@
+header, nav, main, footer, {
+  display: block;
+}
+
 #surround {
   margin: 0 auto;
   width: 85%;
